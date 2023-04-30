@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.login.Enter_Menu"
+    android:orientation="vertical">
+    <ImageView
+        android:layout_marginTop="35dp"
+        android:layout_width="233dp"
+        android:layout_height="206dp"
+        android:layout_gravity="center_horizontal"
+        android:src="@drawable/gerb" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Тихоокеанский государственный университет"
+        android:textSize="26sp"
+        android:gravity="center_horizontal"
+        android:layout_gravity="center_horizontal"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <TextView
+            android:layout_marginTop="20dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Авторизация"
+            android:textSize="46sp"
+            android:gravity="center_horizontal"
+            android:layout_gravity="center_horizontal"/>
+
+        <EditText
+            android:id="@+id/gmail"
+            android:layout_width="320dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="5dp"
+            android:background="@color/grey"
+            android:hint="Почта"
+            android:textSize="36sp" />
+
+        <EditText
+            android:layout_marginTop="15dp"
+            android:background="@color/grey"
+            android:id="@+id/password"
+            android:layout_width="320dp"
+            android:layout_gravity="center"
+            android:layout_height="wrap_content"
+            android:hint="пароль"
+            android:inputType="textPassword"
+            android:textSize="36sp" />
+        <Button
+            android:layout_marginTop="25dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:text="Login"
+            android:id="@+id/loginButton"
+            android:textSize="46sp"
+            android:backgroundTint="#b00000" />
+    </LinearLayout>
+    </LinearLayout>

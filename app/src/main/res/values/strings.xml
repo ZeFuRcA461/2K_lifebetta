@@ -1,0 +1,33 @@
+<resources>
+    <string name="RubContr">    Рубежный контроль</string>
+    <string name="MarkSess">    Оценки за сессию</string>
+    <string name="MarkPract">   Оценки за практику</string>
+    <string name="StudentStudyPlan">    Учебный план студента</string>
+    <string name="UMKD">    УМКД</string>
+    <string name="Recomend_lit">    Рекомендуемая литература</string>
+    <string name="schedule">    Расписание</string>
+    <string name="News">    Новости</string>
+    <string name="Online_maps"> Онлайн карта</string>
+    <string name="open" />
+    <string name="close" />
+    <string name="app_name">superlasttry</string>
+    <string name="MainHeadName">Заголовок</string>
+    <string name="user_name">Имя пользователя</string>
+    <string name="email">example@pnu.edu.ru</string>
+    <string name="portfolio_student">Портфолио студента</string>
+    <string name="Study_material">Учебные материалы</string>
+    <string name="Aplication_functions">Функции приложения</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="navigation_panel">Панель навигации</string>
+    <string name="more">подробнее</string>
+    <!-- Strings related to login -->
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password</string>
+    <string name="action_sign_in">Sign in or register</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="welcome">"Welcome!"</string>
+    <string name="invalid_username">Not a valid username</string>
+    <string name="invalid_password">Password must be >5 characters</string>
+    <string name="login_failed">"Login failed"</string>
+</resources>

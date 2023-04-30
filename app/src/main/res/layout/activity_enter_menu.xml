@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.login.Enter_Menu"
+    android:orientation="vertical">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:id="@+id/registrMenu">
+    <ImageView
+        android:layout_marginTop="35dp"
+        android:layout_width="233dp"
+        android:layout_height="206dp"
+        android:layout_gravity="center_horizontal"
+        android:src="@drawable/gerb" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Тихоокеанский государственный университет"
+        android:textSize="26sp"
+        android:gravity="center_horizontal"
+        android:layout_gravity="center_horizontal"/>
+
+        <TextView
+            android:layout_marginTop="20dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Выберите способ входа:"
+            android:textSize="46sp"
+            android:gravity="center_horizontal"
+            android:layout_gravity="center_horizontal"/>
+
+        <LinearLayout
+            android:layout_marginTop="50dp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:layout_gravity="center_horizontal">
+            <Button
+                android:backgroundTint="#b00000"
+                android:layout_width="240dp"
+                android:layout_height="90dp"
+                android:text="Авторизация"
+                android:shadowColor="@color/red2"
+                android:textSize="30sp"
+                android:id="@+id/student_button"
+                android:layout_gravity="center_horizontal"/>
+
+            <Button
+                android:layout_marginTop="10dp"
+                android:backgroundTint="#b00000"
+                android:shadowColor="@color/red2"
+                android:id="@+id/guess_button"
+                android:layout_width="240dp"
+                android:layout_height="90dp"
+                android:layout_gravity="center_horizontal"
+                android:text="Гость"
+                android:textSize="30sp" />
+        </LinearLayout>
+    </LinearLayout>
+    <include layout="@layout/fragment_registration"
+        android:visibility="gone"
+        android:id="@+id/registrationBlank"/>
+</LinearLayout>

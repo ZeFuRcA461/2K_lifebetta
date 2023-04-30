@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="SplashScreen" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">@color/white</item>
+        <item name="colorPrimaryDark">@color/grey2</item>
+        <item name="colorAccent">@color/red</item>
+    </style>
+    <style name="Button_White" parent="ThemeOverlay.AppCompat">
+        <item name="colorAccent">@color/white</item>
+    </style>
+    <style name="Button_Red" parent="ThemeOverlay.AppCompat">
+        <item name="colorAccent">@color/red</item>
+    </style>
+</resources>

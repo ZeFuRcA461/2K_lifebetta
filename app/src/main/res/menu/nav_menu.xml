@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+    <item android:title="@string/portfolio_student">
+        <menu>
+            <group android:checkableBehavior="single">
+            <item
+                android:id="@+id/RubContr"
+                android:title="@string/RubContr"/>
+            <item
+            android:id="@+id/MarkSess"
+            android:title="@string/MarkSess"/>
+            <item
+            android:id="@+id/MarkPract"
+            android:title="@string/MarkPract"/>
+            </group>
+         </menu>
+    </item>
+
+    <item android:title="@string/Study_material">
+        <menu>
+            <group android:checkableBehavior="single">
+            <item
+            android:id="@+id/StudentStudyPlan"
+            android:title="@string/StudentStudyPlan"/>
+            <item
+            android:id="@+id/UMKD"
+            android:title="@string/UMKD"/>
+            <item
+            android:id="@+id/Recomend_lit"
+            android:title="@string/Recomend_lit"/>
+            </group>
+        </menu>
+    </item>
+
+    <item android:title="@string/Aplication_functions">
+        <menu>
+            <group android:checkableBehavior="single">
+            <item
+            android:id="@+id/schedule"
+            android:title="@string/schedule"/>
+            <item
+            android:id="@+id/News"
+            android:title="@string/News"/>
+            <item
+            android:id="@+id/Online_maps"
+            android:title="@string/Online_maps"/>
+            </group>
+        </menu>
+    </item>
+
+</menu>
